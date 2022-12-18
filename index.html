@@ -453,6 +453,23 @@
               </li>
             </ul>
           </div>
+					<div class="footer-subscription">
+						<p class="footer-heading">Підпишіться на розсилку</p>
+						<form class="subscription-form">
+							<label class="subscription-label"></label>
+							<span class="subscription-wrapper">
+								<input
+									type="name"
+									name="user-name"
+									class="subscription-input"
+									required
+								/>
+							</span>
+						</form>
+						<button type="submit" class="form-button flex">Відправити <svg class="subscription-icon" width="18" height="18">
+							<use href="./images/icons.svg#icon-person-icon"></use>
+						</svg></button>
+					</div>
         </div>
       </div>
     </footer>
@@ -519,12 +536,11 @@
             />
             <label for="policy" class="terms-label"
               ><span
-                ><svg class="modal-icon" width="16" height="15">
+                ><svg class="terms-svg" width="16" height="15">
                   <use
                     href="./images/icons.svg#icon-check-icon"
                   ></use></svg></span
-              >Погоджуюся з розсилкою та приймаю
-              <span class="terms-link">Умови договору</span></label
+              >Погоджуюся з розсилкою та приймаю <a class="modal-link" href="">Умови договору</a></label
             >
           </div>
           <button type="submit" class="form-button">Відправити</button>
