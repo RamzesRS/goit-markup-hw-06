@@ -478,19 +478,16 @@
                 <use href="./images/icons.svg#icon-person-icon"></use>
               </svg>
             </span>
-						<label class="form-label"
+          </label>
+          <label class="form-label"
             ><span class="name-item">Телефон</span>
             <span class="input-wrapper">
-              <input
-                type="name"
-                name="user-tel"
-                class="modal-input"
-                required
-              />
+              <input type="name" name="user-tel" class="modal-input" required />
               <svg class="modal-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone-icon"></use>
               </svg>
             </span>
+          </label>
           <label class="form-label"
             ><span class="name-item">Пошта</span>
             <span class="input-wrapper">
@@ -504,11 +501,33 @@
                 <use href="./images/icons.svg#icon-email-icon"></use>
               </svg>
             </span>
-          <!-- <label class="label"
-            >Коментар
-            <textarea name="text" rows="10" placeholder=""></textarea>
           </label>
-          <button type="submit" class="form-button">Відправити</button> -->
+          <label class="form-label"
+            ><span class="name-item">Коментар</span>
+            <textarea
+              name="text"
+              placeholder="Введіть текст"
+              class="textarea-text"
+            ></textarea>
+          </label>
+          <div class="terms-section">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal-check hidden"
+            />
+            <label for="policy" class="terms-label"
+              ><span
+                ><svg class="modal-icon" width="16" height="15">
+                  <use
+                    href="./images/icons.svg#icon-check-icon"
+                  ></use></svg></span
+              >Погоджуюся з розсилкою та приймаю
+              <span class="terms-link">Умови договору</span></label
+            >
+          </div>
+          <button type="submit" class="form-button">Відправити</button>
         </form>
       </div>
     </div>
